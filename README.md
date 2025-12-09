@@ -1,33 +1,189 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aurtus Hotels - Coming Soon Landing Page
 
-## Getting Started
+A premium "Coming Soon" landing page built with Next.js 14, TailwindCSS, and GSAP animations.
 
-First, run the development server:
+## 🏨 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Hero Section** - Fullscreen hero with GSAP timeline animations
+- **Facilities Showcase** - Five luxury service categories with scroll-triggered animations
+- **Contact Form** - Full validation and email integration via Resend API
+- **Newsletter Signup** - Waitlist subscription with email notifications
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Accessibility** - Respects `prefers-reduced-motion` preferences
+- **Modern Stack** - Next.js 14 App Router, TypeScript, GSAP
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, or pnpm
+- Resend API account (for email functionality)
+
+### Installation
+
+1. **Clone or navigate to the repository:**
+   ```bash
+   cd aurtus-hotels
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. **Install required packages:**
+   ```bash
+   npm install gsap @gsap/react resend
+   # or
+   yarn add gsap @gsap/react resend
+   # or
+   pnpm add gsap @gsap/react resend
+   ```
+
+4. **Set up environment variables:**
+   - Copy `.env.example` to `.env.local`:
+     ```bash
+     cp .env.example .env.local
+     ```
+   - Get your Resend API key from [resend.com/api-keys](https://resend.com/api-keys)
+   - Add your API key to `.env.local`:
+     ```
+     RESEND_API_KEY=re_your_actual_api_key_here
+     ```
+
+5. **Add your hero image:**
+   - Place your hero image as `hero.jpg` in the `/public` folder
+   - Recommended: 1920x1080px or higher, optimized for web
+   - See `/public/hero-image-instructions.md` for details
+
+6. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+7. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── api/
+│   │   ├── contact/route.ts       # Contact form API endpoint
+│   │   └── newsletter/route.ts    # Newsletter subscription endpoint
+│   ├── layout.tsx                 # Root layout with fonts & metadata
+│   ├── page.tsx                   # Main Coming Soon page
+│   └── globals.css                # Global styles & custom CSS
+│
+├── components/
+│   ├── Hero/Hero.tsx              # Fullscreen hero section
+│   ├── Facilities/Facilities.tsx  # Services showcase
+│   ├── ContactForm/ContactForm.tsx # Contact form with validation
+│   ├── Newsletter/Newsletter.tsx   # Email subscription
+│   ├── AnimatedText/
+│   │   ├── AnimatedText.tsx       # Reusable animated text component
+│   │   └── useGsapText.ts         # GSAP text animation hook
+│   ├── Footer.tsx                 # Footer with links & info
+│   └── SocialLinks.tsx            # Social media icons
+│
+└── lib/
+    ├── email.ts                   # Resend email integration
+    └── validators.ts              # Form validation utilities
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Update Hotel Information
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit `/src/components/Footer.tsx` to update:
+- Office hours
+- Email address
+- Physical address (when available)
 
-## Learn More
+### Modify Facilities
 
-To learn more about Next.js, take a look at the following resources:
+Edit `/src/components/Facilities/Facilities.tsx` to customize the five facility cards.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Change Colors
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Update `/src/app/globals.css` to modify the luxury color scheme:
+```css
+:root {
+  --gold: #d4af37;        /* Primary accent color */
+  --gold-dark: #b8941f;   /* Hover state */
+}
+```
+
+### Email Configuration
+
+Edit `/src/lib/email.ts` to:
+- Change recipient email address
+- Customize email templates
+- Modify sender information
+
+## 📧 Email Setup
+
+This project uses [Resend](https://resend.com) for email delivery.
+
+### Steps:
+1. Create a free account at [resend.com](https://resend.com)
+2. Verify your domain (or use their test domain for development)
+3. Generate an API key
+4. Add the API key to `.env.local`
+
+### Testing Emails:
+- Use Resend's test mode for development
+- All emails are sent to `reservations@aurtushotels.com` (update in `email.ts`)
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** TailwindCSS
+- **Animations:** GSAP + @gsap/react
+- **Email:** Resend API
+- **Fonts:** Playfair Display (serif), Inter (sans-serif)
+
+## 📱 Browser Support
+
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Mobile responsive
+- Respects user motion preferences
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended):
+
+1. Push your code to GitHub
+2. Import project to [Vercel](https://vercel.com)
+3. Add environment variables in Vercel dashboard
+4. Deploy!
+
+### Environment Variables in Production:
+Don't forget to add `RESEND_API_KEY` in your hosting platform's environment variables.
+
+## 📄 License
+
+This project is created for Aurtus Hotels.
+
+## 🤝 Support
+
+For questions or support, contact: reservations@aurtushotels.com
+
+---
+
+**Aurtus Hotels** - Unveiling Soon
+
 
 ## Deploy on Vercel
 
