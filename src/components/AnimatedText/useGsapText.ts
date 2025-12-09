@@ -11,7 +11,7 @@ interface UseGsapTextOptions {
 }
 
 export function useGsapText(
-  textRef: React.RefObject<HTMLElement>,
+  textRef: React.RefObject<HTMLElement | null>,
   options: UseGsapTextOptions = {}
 ) {
   const {
