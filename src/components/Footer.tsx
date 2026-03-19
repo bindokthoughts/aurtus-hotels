@@ -2,70 +2,70 @@ import SocialLinks from './SocialLinks';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-950 text-gray-300">
-      <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+    <footer className="bg-background text-foreground border-t border-accent">
+      <div className="mx-auto max-w-7xl px-6 md:px-12 py-16 lg:py-24">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
+
           {/* Brand Section */}
-          <div>
-            <h3 className="font-serif text-2xl text-white mb-4">Aurtus Hotels</h3>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              A new standard in luxury hospitality. Redefining elegance, comfort, and personalized service.
+          <div className="md:w-1/3">
+            <h3 className="font-display text-3xl font-light mb-6">Aurtus <br /> Hotels</h3>
+            <p className="text-sm text-foreground/60 leading-relaxed font-sans max-w-xs">
+              A paradigm shift in luxury hospitality. Redefining elegance through purposeful design and instinctual service.
             </p>
-            <p className="text-sm text-amber-600">Opening Soon</p>
           </div>
 
-          {/* Contact Information */}
-          <div>
-            <h4 className="font-semibold text-white mb-4">Contact</h4>
-            <div className="space-y-3 text-sm">
-              <div>
-                <span className="block font-medium text-gray-300">Office Hours</span>
-                <span className="text-gray-400">Monday - Friday: 9:00 AM - 6:00 PM</span>
-              </div>
-              <div>
-                <span className="block font-medium text-gray-300">Email</span>
-                <a href="mailto:reservations@aurtushotels.com" className="text-amber-600 hover:text-amber-500">
-                  reservations@aurtushotels.com
-                </a>
-              </div>
-              <div>
-                <span className="block font-medium text-gray-300">Address</span>
-                <span className="text-gray-400">Coming Soon</span>
+          <div className="md:w-2/3 flex flex-col sm:flex-row justify-between gap-12 sm:gap-6 w-full">
+            {/* Contact Information */}
+            <div className="flex flex-col gap-6 w-full sm:w-1/2">
+              <h4 className="font-mono text-xs uppercase tracking-widest text-accent-dark">Contact</h4>
+              <div className="space-y-4 text-sm font-sans">
+                <div className="flex flex-col gap-1 border-b border-accent pb-2">
+                  <span className="text-foreground/50">Office Hours</span>
+                  <span className="text-foreground">Mon - Fri / 09:00 - 18:00</span>
+                </div>
+                <div className="flex flex-col gap-1 border-b border-accent pb-2">
+                  <span className="text-foreground/50">Direct Line</span>
+                  <a href="mailto:reservations@aurtushotels.com" className="text-foreground hover:opacity-50 transition-opacity">
+                    reservations@aurtushotels.com
+                  </a>
+                </div>
+                <div className="flex flex-col gap-1 border-b border-accent pb-2">
+                  <span className="text-foreground/50">Location</span>
+                  <span className="text-foreground">Unveiling Soon</span>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="font-semibold text-white mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#facilities" className="text-gray-400 hover:text-amber-600">
-                  Facilities
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-gray-400 hover:text-amber-600">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-amber-600">
-                  Privacy Policy
-                </a>
-              </li>
-            </ul>
+            {/* Quick Links */}
+            <div className="flex flex-col gap-6 w-full sm:w-1/3">
+              <h4 className="font-mono text-xs uppercase tracking-widest text-accent-dark">Index</h4>
+              <ul className="space-y-3 text-sm font-sans flex flex-col">
+                <li>
+                  <a href="#facilities" className="text-foreground hover:opacity-50 transition-opacity flex items-center gap-2">
+                    <span className="w-4 h-px bg-foreground"></span> Experience
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="text-foreground hover:opacity-50 transition-opacity flex items-center gap-2">
+                    <span className="w-4 h-px bg-foreground"></span> Reach Out
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-foreground hover:opacity-50 transition-opacity flex items-center gap-2">
+                    <span className="w-4 h-px bg-foreground"></span> Legal
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        {/* Social Links */}
-        <div className="border-t border-gray-800 pt-8 mb-8">
+        {/* Bottom Bar Container */}
+        <div className="flex flex-col md:flex-row items-center justify-between border-t border-accent pt-8 gap-6">
+          <div className="text-xs text-foreground/50 font-sans">
+            <p>&copy; {new Date().getFullYear()} Aurtus Hotels. All rights reserved.</p>
+          </div>
           <SocialLinks />
-        </div>
-
-        {/* Copyright */}
-        <div className="text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Aurtus Hotels. All rights reserved.</p>
         </div>
       </div>
     </footer>
