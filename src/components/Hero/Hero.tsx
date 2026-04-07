@@ -36,10 +36,9 @@ export default function Hero() {
           The Next Chapter
         </p>
 
-        <h1 className="hero-text font-display text-[12vw] leading-[0.85] tracking-tighter text-foreground uppercase">
-          Aurtus <br />
-          <span className="text-gray-300">Hotels</span>
-        </h1>
+        <div className="hero-text pb-4 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
+          <img src="/assets/images/brandlogo/Aurtus_Logo_Horizontal.svg" alt="Aurtus Hotels Logo" className="w-full h-auto drop-shadow-sm" />
+        </div>
 
         <div className="hero-text flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-8">
           <a
