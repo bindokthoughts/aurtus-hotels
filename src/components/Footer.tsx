@@ -8,7 +8,9 @@ export default function Footer() {
 
           {/* Brand Section */}
           <div className="md:w-1/3">
-            <h3 className="font-display text-3xl font-light mb-6">Aurtus <br /> Hotels</h3>
+            <div className="mb-6 w-36 md:w-48">
+              <img src="/assets/images/brandlogo/Aurtus_Logo_Horizontal.svg" alt="Aurtus Hotels Logo" className="w-full h-auto drop-shadow-sm" />
+            </div>
             <p className="text-sm text-foreground/60 leading-relaxed font-sans max-w-xs">
               A paradigm shift in luxury hospitality. Redefining elegance through purposeful design and instinctual service.
             </p>
@@ -25,13 +27,19 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col gap-1 border-b border-accent pb-2">
                   <span className="text-foreground/50">Direct Line</span>
+                  <a href="tel:+918956554600" className="text-foreground hover:opacity-50 transition-opacity">
+                    +91-8956554600
+                  </a>
+                </div>
+                <div className="flex flex-col gap-1 border-b border-accent pb-2">
+                  <span className="text-foreground/50">Direct Mail</span>
                   <a href="mailto:reservations@aurtushotels.com" className="text-foreground hover:opacity-50 transition-opacity">
                     reservations@aurtushotels.com
                   </a>
                 </div>
                 <div className="flex flex-col gap-1 border-b border-accent pb-2">
                   <span className="text-foreground/50">Location</span>
-                  <span className="text-foreground">Unveiling Soon</span>
+                  <span className="text-foreground">Rajapeth Square, Amravati (MH)-444605</span>
                 </div>
               </div>
             </div>
