@@ -17,17 +17,17 @@ export default function RoomServicesPage() {
             <ul className="space-y-6 font-sans text-sm">
               <li className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-foreground font-medium mb-1">Aurtus Signature Continental</h4>
-                  <p className="text-foreground/60 text-xs">Freshly baked pastries, seasonal fruit, artisan cheese, coffee or tea.</p>
+                  <h4 className="text-foreground font-medium mb-1">Aurtus Signature South Indian</h4>
+                  <p className="text-foreground/60 text-xs">Steamed idlis, medu vada, and mini dosa served with sambar, assorted chutneys, and filter coffee.</p>
                 </div>
-                <span className="text-foreground/80 font-mono">₹1,250</span>
+                <span className="text-foreground/80 font-mono">₹850</span>
               </li>
               <li className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-foreground font-medium mb-1">Eggs Benedict</h4>
-                  <p className="text-foreground/60 text-xs">Poached eggs, Canadian bacon, English muffin, hollandaise sauce.</p>
+                  <h4 className="text-foreground font-medium mb-1">Amritsari Chole Bhature</h4>
+                  <p className="text-foreground/60 text-xs">Fluffy bhature served with perfectly spiced chickpeas, tangy pickles, and sweet lassi.</p>
                 </div>
-                <span className="text-foreground/80 font-mono">₹850</span>
+                <span className="text-foreground/80 font-mono">₹650</span>
               </li>
             </ul>
           </div>
@@ -38,17 +38,17 @@ export default function RoomServicesPage() {
             <ul className="space-y-6 font-sans text-sm">
               <li className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-foreground font-medium mb-1">Wagyu Beef Burger</h4>
-                  <p className="text-foreground/60 text-xs">Truffle aioli, vintage cheddar, brioche bun, hand-cut fries.</p>
+                  <h4 className="text-foreground font-medium mb-1">Murgh Makhani (Butter Chicken)</h4>
+                  <p className="text-foreground/60 text-xs">Tender chicken tikka simmered in a rich tomato-fenugreek gravy, served with garlic naan.</p>
                 </div>
-                <span className="text-foreground/80 font-mono">₹1,450</span>
+                <span className="text-foreground/80 font-mono">₹1,150</span>
               </li>
               <li className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-foreground font-medium mb-1">Caesar Salad</h4>
-                  <p className="text-foreground/60 text-xs">Baby gem lettuce, parmesan crisp, anchovies, soft boiled egg.</p>
+                  <h4 className="text-foreground font-medium mb-1">Paneer Tikka Masala</h4>
+                  <p className="text-foreground/60 text-xs">Charcoal-roasted cottage cheese in a robust onion-tomato masala, served with laccha paratha.</p>
                 </div>
-                <span className="text-foreground/80 font-mono">₹750</span>
+                <span className="text-foreground/80 font-mono">₹950</span>
               </li>
             </ul>
           </div>
