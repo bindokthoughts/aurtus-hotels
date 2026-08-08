@@ -42,10 +42,17 @@ export function processDiningData(rawData: unknown): InRoomDiningData {
       served_hours: sanitizeText(service.served_hours),
       categories: (service.categories || []).map((cat: MenuCategory) => ({
         category_name: sanitizeText(cat.category_name),
+        category_type: cat.category_type ? sanitizeText(cat.category_type) : undefined,
         items: (cat.items || []).map((item: MenuItem) => ({
           name: sanitizeText(item.name),
           price: formatPrice(item.price),
           description: item.description ? sanitizeText(item.description) : undefined,
+          ChefsSignitureDish:
+            typeof item.ChefsSignitureDish === 'boolean'
+              ? item.ChefsSignitureDish
+              : item.ChefsSignitureDish
+              ? sanitizeText(String(item.ChefsSignitureDish))
+              : 'No',
         })),
       })),
     })),
