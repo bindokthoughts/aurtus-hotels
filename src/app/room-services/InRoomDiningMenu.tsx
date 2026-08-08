@@ -9,6 +9,7 @@ import {
   SearchBar,
   CategoryFilter,
   ServiceRibbon,
+  CategoryHeader,
   MenuItemCard,
   MenuDisclaimers,
 } from './components';
@@ -131,14 +132,7 @@ export default function InRoomDiningMenu({ data }: InRoomDiningMenuProps) {
           <div className="space-y-16">
             {filteredCategories.map((category) => (
               <section key={category.category_name} className="menu-category-section scroll-mt-36">
-                <div className="flex items-baseline justify-between border-b border-accent pb-3 mb-6">
-                  <h3 className="font-mono text-sm uppercase tracking-widest text-foreground font-medium">
-                    {category.category_name}
-                  </h3>
-                  <span className="text-xs font-mono text-foreground/40">
-                    {category.items.length} {category.items.length === 1 ? 'item' : 'items'}
-                  </span>
-                </div>
+                <CategoryHeader category={category} />
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {category.items.map((item, idx) => (

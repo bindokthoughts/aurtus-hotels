@@ -2,10 +2,12 @@ export interface MenuItem {
   name: string;
   price: string;
   description?: string;
+  ChefsSignitureDish?: string | boolean;
 }
 
 export interface MenuCategory {
   category_name: string;
+  category_type?: string; // 'Veg' | 'Non-Veg' | 'Both'
   items: MenuItem[];
 }
 
