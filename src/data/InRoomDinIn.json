@@ -1,0 +1,711 @@
+{
+  "restaurant": "AURTUS[cite: 2]",
+  "menu_title": "IN ROOM DINING[cite: 2]",
+  "disclaimers": [
+    "Prices are exclusive of applicable government taxes.[cite: 2]",
+    "Please inform your server if you have any food allergies or specific dietary requirements before placing your order.[cite: 2]"
+  ],
+  "service_menus": [
+    {
+      "service_name": "BREAKFAST[cite: 2]",
+      "served_hours": "7:30 AM-10:30 AM[cite: 2]",
+      "categories": [
+        {
+          "category_name": "CEREALS & COLD SECTION[cite: 2]",
+          "items": [
+            {
+              "name": "Seasonal Cut Fruits[cite: 2]",
+              "price": "249[cite: 2]",
+              "description": "(Watermelon/ Muskmelon/Pineapple/ Grapes/Apple/ Orange/ Banana)[cite: 2]"
+            },
+            {
+              "name": "Cereals[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Corn Flakes/ Choco Flakes/ Muesli/ Granola Served With Milk)[cite: 2]"
+            },
+            {
+              "name": "Steamed Idli[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(A fermented steamed rice cakes served with chutney and sambar) (3 Pcs)[cite: 2]"
+            },
+            {
+              "name": "Medu Wada[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Deep-fried lentil doughnut, seasoned with peppercorns, curry leaves, and ginger) (3 Pcs)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "THE EGG STATION[cite: 2]",
+          "items": [
+            {
+              "name": "Akuri[cite: 2]",
+              "price": "249[cite: 2]",
+              "description": "(Parsi style spicy scrambled eggs with onions, chilies and coriander, served with bread)[cite: 2]"
+            },
+            {
+              "name": "Classic Omelette[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Choice of Masala, Cheese, Mushroom, or Plain)[cite: 2]"
+            },
+            {
+              "name": "Two Eggs Any Style[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Choice of fried, scrambled and poached served with grilled tomatoes)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "TEA & COFFEE[cite: 2]",
+          "items": [
+            {
+              "name": "Regular Coffee[cite: 2]",
+              "price": "89[cite: 2]",
+              "description": "(Freshly brewed coffee with milk and sugar on the side)[cite: 2]"
+            },
+            {
+              "name": "Black Coffee[cite: 2]",
+              "price": "79[cite: 2]",
+              "description": "(A bold, aromatic brew of premium coffee beans)[cite: 2]"
+            },
+            {
+              "name": "Masala Chai[cite: 2]",
+              "price": "79[cite: 2]",
+              "description": "(Traditional Indian tea infused with ginger, cardamom, and spices)[cite: 2]"
+            },
+            {
+              "name": "Black Tea/Green Tea[cite: 2]",
+              "price": "69[cite: 2]",
+              "description": "(A refreshing and light brew for a healthy start)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "BAKERY, BREADS & GRIDDLES[cite: 2]",
+          "items": [
+            {
+              "name": "Bakery Delights Platter[cite: 2]",
+              "price": "249[cite: 2]",
+              "description": "(An assortment of Croissants, Danish Pastry, Muffins and Tea Cake)[cite: 2]"
+            },
+            {
+              "name": "The Sandwich Press[cite: 2]",
+              "price": "225[cite: 2]",
+              "description": "(Choice of Cheese Tomato Cucumber/ Cheese Cucumber/ Coleslaw/ Classic Grilled Sandwich)[cite: 2]"
+            },
+            {
+              "name": "Artisan Bread Toast[cite: 2]",
+              "price": "149[cite: 2]",
+              "description": "(White/Brown)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "THE MORNING KITCHEN[cite: 2]",
+          "items": [
+            {
+              "name": "Chole Bhature[cite: 2]",
+              "price": "299[cite: 2]",
+              "description": "(Spicy, tangy chickpeas paired with large, deep-fried leavened bread) (2 Pcs)[cite: 2]"
+            },
+            {
+              "name": "Poori Bhaji[cite: 2]",
+              "price": "249[cite: 2]",
+              "description": "(Golden, deep-fried puffed bread served with a flavorful, spiced potato curry) (4 Pcs)[cite: 2]"
+            },
+            {
+              "name": "Paratha[cite: 2]",
+              "price": "229[cite: 2]",
+              "description": "(Choice of Paneer/ Aloo/ Methi served with curd & pickle) (2 Pcs)[cite: 2]"
+            },
+            {
+              "name": "Rawa Upma[cite: 2]",
+              "price": "229[cite: 2]",
+              "description": "(Savory porridge made from roasted semolina, tempered with mustard seeds, curry leaves and crunchy lentils and studded with sauteed vegetables)[cite: 2]"
+            },
+            {
+              "name": "Dosa[cite: 2]",
+              "price": "229[cite: 2]",
+              "description": "(Choice Of Plain/Masala/ Cheese Masala served with chutney and sambar)[cite: 2]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "service_name": "MID-DAY TO LATE-NIGHT[cite: 2]",
+      "served_hours": "12:00 PM - 11:30 PM[cite: 2]",
+      "categories": [
+        {
+          "category_name": "APPETIZER - THE TANDOOR ROOM[cite: 2]",
+          "items": [
+            {
+              "name": "The Paneer Tikka Collection[cite: 2]",
+              "price": "429[cite: 2]",
+              "description": "(Choice of Kandhari/ Kasturi/ Angara/ Malai served with mint chutney)[cite: 2]"
+            },
+            {
+              "name": "Tandoor Ke Phool[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(Crisp cauliflower & broccoli florets steeped in a spiced yogurt marinade and charred to perfection in the clay oven)[cite: 2]"
+            },
+            {
+              "name": "Peshawari Soya Chaap[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(Soy chops marinated overnight in a robust blend of hand pounded spices, mustard oil and hung curd, roasted until deeply smoky)[cite: 2]"
+            },
+            {
+              "name": "Dahi Ke Sholey[cite: 2]",
+              "price": "349[cite: 2]",
+              "description": "(Crunchy bread pockets filled with hung curd, bell peppers, and secret spices)[cite: 2]"
+            },
+            {
+              "name": "Aloo Firdaus[cite: 2]",
+              "price": "349[cite: 2]",
+              "description": "(Tandoor charred potato stuffed with a rich, royal blend of paneer, nuts and aromatic spices)[cite: 2]"
+            },
+            {
+              "name": "Veg Shikhampuri[cite: 2]",
+              "price": "349[cite: 2]",
+              "description": "(Velvety melt-in-the-mouth patties stuffed with spiced yogurt and mint)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "APPETIZER - GLOBAL CRISPS[cite: 2]",
+          "items": [
+            {
+              "name": "Fiery Sichuan Babycorn[cite: 2]",
+              "price": "379[cite: 2]",
+              "description": "(Golden-fried babycorn tossed in a spicy Sichuan pepper glaze)[cite: 2]"
+            },
+            {
+              "name": "Wok Tossed Chilli Garlic Mushroom[cite: 2]",
+              "price": "379[cite: 2]",
+              "description": "(Batter crusted button mushrooms tossed in a hot wok with burnt garlic, spicy green chilies, and a splash of dark soy sauce)[cite: 2]"
+            },
+            {
+              "name": "Popia Tod[cite: 2]",
+              "price": "379[cite: 2]",
+              "description": "(Authentic Thai vegetable spring rolls served with a sweet chili dip)[cite: 2]"
+            },
+            {
+              "name": "Gourmet Cheese Bites[cite: 2]",
+              "price": "329[cite: 2]",
+              "description": "(Choice of Potato Cheese Pops / Classic Cheese Nuggets)[cite: 2]"
+            },
+            {
+              "name": "Classic Garlic Bruschetta[cite: 2]",
+              "price": "329[cite: 2]",
+              "description": "(Toasted slices of baguette bread rubbed with garlic and extra virgin olive oil with vibrant mix of diced vine-ripened tomatoes, fresh basil, and balsamic glaze)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "THE SEAFOOD CATCH[cite: 2]",
+          "items": [
+            {
+              "name": "Tawa Fish Fry - Nellore Style[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(A fiery, tamarind-infused Andhra fish fry characterized by its thick, spicy masala crust and aromatic curry leaf tempering)[cite: 2]"
+            },
+            {
+              "name": "Amritsari Fish Fry[cite: 2]",
+              "price": "499[cite: 2]",
+              "description": "(Traditional river fish coated in spiced gram flour and carom seeds)[cite: 2]"
+            },
+            {
+              "name": "Panko Crumb Fried Fish[cite: 2]",
+              "price": "499[cite: 2]",
+              "description": "(Japanese-style breaded fillets served with zesty tartar dip)[cite: 2]"
+            },
+            {
+              "name": "British Style Fish N Chips[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(Batter fried fish served with golden crisps and tartar sauce)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "THE TANDOOR ROOM (NON-VEG)[cite: 2]",
+          "items": [
+            {
+              "name": "Gondhoraj Fish Tikka[cite: 2]",
+              "price": "499[cite: 2]",
+              "description": "(Tender fish marinated in zesty gondhoraj lime, grilled to a smoky perfection)[cite: 2]"
+            },
+            {
+              "name": "Punjabi Tandoori Murgh (F/H)[cite: 2]",
+              "price": "899/499[cite: 2]",
+              "description": "(Bone in chicken marinated in our house-special spice blend and charred in the clay oven)[cite: 2]"
+            },
+            {
+              "name": "Ambikapur Murgh Tikka[cite: 2]",
+              "price": "479[cite: 2]",
+              "description": "(A chef specialty featuring tender morsels infused with herbs and local spices)[cite: 2]"
+            },
+            {
+              "name": "The Chicken Tikka Collection[cite: 2]",
+              "price": "479[cite: 2]",
+              "description": "(Choice of Angara/Peshawari/Malai/Banjara/Sufiyana Lazeez served with mint chutney)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "GLOBAL CRISPS (NON-VEG)[cite: 2]",
+          "items": [
+            {
+              "name": "Drums of Heaven[cite: 2]",
+              "price": "499[cite: 2]",
+              "description": "(Crispy chicken lollipops glazed in a spicy tangy Schezwan sauce)[cite: 2]"
+            },
+            {
+              "name": "Kung Pao Chicken[cite: 2]",
+              "price": "449[cite: 2]",
+              "description": "(Wok tossed with crunchy peanuts, dried chilies and soy)[cite: 2]"
+            },
+            {
+              "name": "Parmesan Crusted Chicken Strips[cite: 2]",
+              "price": "449[cite: 2]",
+              "description": "(Juicy chicken tenders dredged in a savory blend of panko crumbs and freshly grated Parmesan cheese, fried golden-brown and served with dipping sauce)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "SOUP - THE CREAMY COLLECTION[cite: 2]",
+          "items": [
+            {
+              "name": "Cream Of Tomato Soup[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Vine ripened tomatoes and fresh basil)[cite: 2]"
+            },
+            {
+              "name": "Cream Of Broccoli Soup[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Garden greens with a hint of roasted garlic)[cite: 2]"
+            },
+            {
+              "name": "Roasted Pumpkin Soup[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Earthy harvest pumpkin with a nutmeg finish)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "SOUP - THE WOK FIRED BROTHS[cite: 2]",
+          "items": [
+            {
+              "name": "Traditional Manchow Soup[cite: 2]",
+              "price": "199/249[cite: 2]",
+              "description": "(A spicy, ginger-infused favorite served with crispy noodles)[cite: 2]"
+            },
+            {
+              "name": "Zesty Lemon Pepper Soup[cite: 2]",
+              "price": "199/249[cite: 2]",
+              "description": "(Clear, zesty broth with a peppery kick)[cite: 2]"
+            },
+            {
+              "name": "Classic Hot N Sour Soup[cite: 2]",
+              "price": "199/249[cite: 2]",
+              "description": "(Bold, tangy, and spicy)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "BAR SIDE CHAKNA & MAKHNA[cite: 2]",
+          "items": [
+            {
+              "name": "Chana Roast Garam[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Crisp, golden roasted chickpeas tossed with robust Indian spices for a savory bite)[cite: 2]"
+            },
+            {
+              "name": "Zesty Peanut Chaat[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(A tangy and spicy snack made with crunchy peanuts, chopped onions, tomatoes and lime)[cite: 2]"
+            },
+            {
+              "name": "Raita[cite: 2]",
+              "price": "149[cite: 2]",
+              "description": "(Choice of Boondi/Mix Veg/ Pineapple/Mix Fruit)[cite: 2]"
+            },
+            {
+              "name": "Masala Papad[cite: 2]",
+              "price": "59[cite: 2]",
+              "description": "(Roasted or fry papad topped with cucumber, onion, tomatoes, chili and lime)[cite: 2]"
+            },
+            {
+              "name": "Papad[cite: 2]",
+              "price": "49[cite: 2]",
+              "description": "(Choice of fried/clay oven roasted) (2 Pcs)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "MAINS - INDIAN SPECIALITIES[cite: 2]",
+          "items": [
+            {
+              "name": "Paneer Aap Ki Pasand[cite: 2]",
+              "price": "449[cite: 2]",
+              "description": "(Choice of Makhni/Lababdar/ Kadhai/ Palak/ Butter Masala/ Kolhapuri/ Pasanda)[cite: 2]"
+            },
+            {
+              "name": "Makhmali Kofta Curry[cite: 2]",
+              "price": "429[cite: 2]",
+              "description": "(Velvety, spiced cheese dumplings in a creamy curry sauce)[cite: 2]"
+            },
+            {
+              "name": "Subz Khazana[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(A vibrant medley of seasonal vegetables simmered in a fragrant, rich gravy)[cite: 2]"
+            },
+            {
+              "name": "Mushroom Hara Pyaaz[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(Button mushrooms tossed with spring onions, ginger, and hand-pounded spices)[cite: 2]"
+            },
+            {
+              "name": "Bhindi Moongfali Jaipuri[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(Crispy ladyfinger tossed with roasted peanuts, aromatic Rajasthani spices, and a touch of amchur)[cite: 2]"
+            },
+            {
+              "name": "Mutton Rogan Josh[cite: 2]",
+              "price": "649[cite: 2]",
+              "description": "(Slow cooked Kashmiri lamb in a gravy of ginger, fennel and chilies)[cite: 2]"
+            },
+            {
+              "name": "Kosha Mangsho[cite: 2]",
+              "price": "649[cite: 2]",
+              "description": "(Dark caramelized mutton curry cooked in Bengali style)[cite: 2]"
+            },
+            {
+              "name": "Macher Jhol[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(Traditional Bengali fish curry simmered with potatoes and spices)[cite: 2]"
+            },
+            {
+              "name": "Ajwani Machli Curry[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(Tender fish cooked in a tomato-onion base scented with carom seeds)[cite: 2]"
+            },
+            {
+              "name": "Murgh Aap Ki Pasand[cite: 2]",
+              "price": "499[cite: 2]",
+              "description": "(Choice Butter Masala/ Tikka Masala/ Kolhapuri/ Khandeshi)[cite: 2]"
+            },
+            {
+              "name": "Kukkad Varhadi[cite: 2]",
+              "price": "449[cite: 2]",
+              "description": "(A dark, flavorful gravy made with roasted peanuts, dry coconut, onions and a traditional blend of local spices)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "SALADS[cite: 2]",
+          "items": [
+            {
+              "name": "Waldorf Salad[cite: 2]",
+              "price": "229[cite: 2]",
+              "description": "(A classic, creamy salad featuring crisp apples and walnuts tossed in a mayonnaise dressing)[cite: 2]"
+            },
+            {
+              "name": "Caesar Salad[cite: 2]",
+              "price": "229[cite: 2]",
+              "description": "(Salad made with romaine lettuce and crunchy croutons tossed in a creamy dressing)[cite: 2]"
+            },
+            {
+              "name": "Farm Fresh Green Salad[cite: 2]",
+              "price": "99[cite: 2]",
+              "description": "(A refreshing assortment of crisp, seasonal garden vegetables sliced and served fresh)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "REFINED RICE PREPARATIONS[cite: 2]",
+          "items": [
+            {
+              "name": "Nizami Tarkari Biryani[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(Fragrant long-grain basmati rice and seasonal vegetable cooked on dum with saffron, fried onions and fresh mint)[cite: 2]"
+            },
+            {
+              "name": "Kashmiri Pulao[cite: 2]",
+              "price": "299[cite: 2]",
+              "description": "(A tangy and spicy snack made with crunchy peanuts, chopped onions, tomatoes and lime)[cite: 2]"
+            },
+            {
+              "name": "Barista Jeera Rice[cite: 2]",
+              "price": "279[cite: 2]",
+              "description": "(Basmati rice tempered with aromatic cumin seeds and topped with a garnish of golden brown caramelized onions)[cite: 2]"
+            },
+            {
+              "name": "Green Peas Pulao[cite: 2]",
+              "price": "279[cite: 2]",
+              "description": "(Fragrant, ghee tempered basmati rice tossed with garden-fresh green peas and mild whole spices)[cite: 2]"
+            },
+            {
+              "name": "Dal Khichdi[cite: 2]",
+              "price": "249[cite: 2]",
+              "description": "(A one pot meal made with rice, moong dal and medley of fresh vegetables)[cite: 2]"
+            },
+            {
+              "name": "Steam Rice[cite: 2]",
+              "price": "199[cite: 2]",
+              "description": "(Light, fluffy, and perfectly steamed long-grain rice)[cite: 2]"
+            },
+            {
+              "name": "Awadhi Mutton Biryani[cite: 2]",
+              "price": "649[cite: 2]",
+              "description": "(Fragrant basmati rice and tender mutton slow-cooked on dum with saffron, Kewra and mild Awadhi spices)[cite: 2]"
+            },
+            {
+              "name": "Hyderabadi Dum Biryani[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(Fragrant long grain basmati rice and tender marinated chicken slow-cooked on dum with saffron, fried onions, and fresh mint)[cite: 2]"
+            },
+            {
+              "name": "Lucknowi Murgh Yakhni Pulav[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(A delicate, aromatic rice preparation where basmati is slow-cooked in a flavorful chicken stock yakhni and finished with mild whole spices)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "LENTILS[cite: 2]",
+          "items": [
+            {
+              "name": "Dal Makhni Bagharwali[cite: 2]",
+              "price": "299[cite: 2]",
+              "description": "(Slow cooked black lentils enriched with butter and cream, finished with a signature smoky charcoal tempering)[cite: 2]"
+            },
+            {
+              "name": "Dal Selection[cite: 2]",
+              "price": "249[cite: 2]",
+              "description": "(Choice of your style of dal Dal Tadka/Lehsuni Dal Tadka/Dal Palak)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "INDIAN BREADS[cite: 2]",
+          "items": [
+            {
+              "name": "Kulcha[cite: 2]",
+              "price": "89[cite: 2]"
+            },
+            {
+              "name": "Cheese Garlic Naan[cite: 2]",
+              "price": "89[cite: 2]"
+            },
+            {
+              "name": "Naan / Butter Naan[cite: 2]",
+              "price": "59/69[cite: 2]"
+            },
+            {
+              "name": "Laccha Paratha[cite: 2]",
+              "price": "59[cite: 2]"
+            },
+            {
+              "name": "Plain / Butter Tandoori Roti[cite: 2]",
+              "price": "35/45[cite: 2]"
+            },
+            {
+              "name": "Plain / Butter Tawa Roti[cite: 2]",
+              "price": "25/30[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "GLOBAL ENTREES - THE SILK ROUTE[cite: 2]",
+          "items": [
+            {
+              "name": "Thai Curry[cite: 2]",
+              "price": "449[cite: 2]",
+              "description": "(Choice of Red/Yellow/ Green Thai Curry)[cite: 2]"
+            },
+            {
+              "name": "Cottage Cheese In Chilli Garlic Sauce[cite: 2]",
+              "price": "429[cite: 2]",
+              "description": "(Golden-fried paneer cubes tossed with crunchy bell peppers)[cite: 2]"
+            },
+            {
+              "name": "Wok Tossed Garden Vegetable Balls[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(Crispy vegetable florets enveloped in a bold, savory dark soy sauce with hints of garlic)[cite: 2]"
+            },
+            {
+              "name": "Seasonal Asian Greens[cite: 2]",
+              "price": "399[cite: 2]",
+              "description": "(A vibrant, crisp medley of garden-fresh greens flash-woken in a light ginger-soy glaze)[cite: 2]"
+            },
+            {
+              "name": "Crispy Sliced Chilli Fish[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(Tomato and chili based soft fish with steam rice)[cite: 2]"
+            },
+            {
+              "name": "Thai Curry (Chicken)[cite: 2]",
+              "price": "499[cite: 2]",
+              "description": "(Choice of Red/Yellow/ Green Thai Curry cooked with chicken)[cite: 2]"
+            },
+            {
+              "name": "Cantonese Sweet & Sour Chicken[cite: 2]",
+              "price": "449[cite: 2]",
+              "description": "(Chicken cubes tossed with fresh pineapple, bell pepper and onions)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "GLOBAL ENTREES - THE EUROPEAN BISTRO[cite: 2]",
+          "items": [
+            {
+              "name": "Herb Marinated Grilled Fish[cite: 2]",
+              "price": "599[cite: 2]",
+              "description": "(Sliced fish, buttered winter vegetable and potato mashed and lemon caper sauce)[cite: 2]"
+            },
+            {
+              "name": "Herbed Marinated Grilled Chicken[cite: 2]",
+              "price": "549[cite: 2]",
+              "description": "(Breast of chicken marinated with fresh herb and grilled and served with grilled vegetable, potato mashed and red wine jus)[cite: 2]"
+            },
+            {
+              "name": "Pasta Your Way (Chicken)[cite: 2]",
+              "price": "499[cite: 2]",
+              "description": "(Pasta Cooked with chicken in your choice of sauce Arrabbiata/ Bechamel/ Genovese/ Rosa)[cite: 2]"
+            },
+            {
+              "name": "Herbed Marinated Grilled Cottage[cite: 2]",
+              "price": "449[cite: 2]",
+              "description": "(A thick, succulent paneer slab infused with garden herbs and flame-seared to smoky perfection)[cite: 2]"
+            },
+            {
+              "name": "Pasta Your Way (Veg)[cite: 2]",
+              "price": "429[cite: 2]",
+              "description": "(Pasta Cooked with vegetables in your choice of sauce Arrabbiata/ Bechamel/ Genovese/ Rosa)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "WOK-FIRED STARCHES[cite: 2]",
+          "items": [
+            {
+              "name": "Fried Rice[cite: 2]",
+              "price": "399/499[cite: 2]",
+              "description": "(A delicate, classic stir fry rice and finely diced seasonal vegetables with light seasoning)[cite: 2]"
+            },
+            {
+              "name": "Chilli Basil Fried Rice[cite: 2]",
+              "price": "349/449[cite: 2]",
+              "description": "(Fragrant jasmine rice wok tossed with fresh Thai basil, chilies and a hint of pepper)[cite: 2]"
+            },
+            {
+              "name": "Burnt Garlic Fried Rice[cite: 2]",
+              "price": "349/449[cite: 2]",
+              "description": "(Golden fried rice infused with the deep, nutty aroma of slow roasted garlic and crisp spring onions)[cite: 2]"
+            },
+            {
+              "name": "Schezwan Fried Rice[cite: 2]",
+              "price": "399/499[cite: 2]",
+              "description": "(A fiery, bold classic tossed in our house made Schezwan sauce with a blend of pungent spices)[cite: 2]"
+            },
+            {
+              "name": "Hakka Noodles[cite: 2]",
+              "price": "399/499[cite: 2]",
+              "description": "(Silky, street style noodles wok tossed with julienne vegetables and a touch of white pepper)[cite: 2]"
+            },
+            {
+              "name": "Singaporean Noodles[cite: 2]",
+              "price": "399/499[cite: 2]",
+              "description": "(Thin vermicelli noodles seasoned with aromatic curry powder, turmeric and a vibrant vegetable medley)[cite: 2]"
+            },
+            {
+              "name": "Burnt Garlic Noodles[cite: 2]",
+              "price": "399/499[cite: 2]",
+              "description": "(Soft noodles tossed over high heat with a generous helping of smoky, caramelized garlic)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "DESSERTS - SWEET TREATS[cite: 2]",
+          "items": [
+            {
+              "name": "Sizzling Brownie[cite: 2]",
+              "price": "249[cite: 2]",
+              "description": "(A decadent, warm chocolate brownie served on a hot iron plate, topped with cold vanilla ice cream and bubbling chocolate sauce)[cite: 2]"
+            },
+            {
+              "name": "Gulkand & Pistachio Panna Cotta[cite: 2]",
+              "price": "229[cite: 2]",
+              "description": "(A silky, eggless Italian cream infused with rose petal preserves, topped with a pistachio)[cite: 2]"
+            },
+            {
+              "name": "Mousse[cite: 2]",
+              "price": "179[cite: 2]",
+              "description": "(Velvety whipped cream dessert infused with the tropical sweetness)[cite: 2]"
+            },
+            {
+              "name": "Moong Dal Halwa Filo[cite: 2]",
+              "price": "179[cite: 2]",
+              "description": "(Traditional, rich Moong Dal Halwa wrapped in flaky, crispy baked filo pastry sheets, served warm with a drizzle of rabdi)[cite: 2]"
+            },
+            {
+              "name": "Ice Cream[cite: 2]",
+              "price": "129[cite: 2]",
+              "description": "(A classic, frozen dairy delight available in endless flavors) (2 Scoops)[cite: 2]"
+            },
+            {
+              "name": "Gulab Jamun[cite: 2]",
+              "price": "129[cite: 2]",
+              "description": "(Soft golden fried balls soaked in warm cardamom infused sugar syrup) (2 Pcs)[cite: 2]"
+            }
+          ]
+        },
+        {
+          "category_name": "BEVERAGE[cite: 2]",
+          "items": [
+            {
+              "name": "Fresh Juice[cite: 2]",
+              "price": "149[cite: 2]",
+              "description": "(Choice of Watermelon/Orange/ Sweet lime) (250 ml)[cite: 2]"
+            },
+            {
+              "name": "Cold Coffee[cite: 2]",
+              "price": "149[cite: 2]",
+              "description": "(A blend of coffee with milk, sugar and ice cream)[cite: 2]"
+            },
+            {
+              "name": "Preserved Fruit Juice[cite: 2]",
+              "price": "129[cite: 2]",
+              "description": "(Choice of Mixed Fruit/Guava/ Pomegranate) (250 ml)[cite: 2]"
+            },
+            {
+              "name": "Lassi[cite: 2]",
+              "price": "129[cite: 2]",
+              "description": "(Sweet/Salted)[cite: 2]"
+            },
+            {
+              "name": "Sambharam[cite: 2]",
+              "price": "99[cite: 2]",
+              "description": "(Buttermilk drink seasoned with ginger, green chilies, curry and salt) (leaves)[cite: 2]"
+            },
+            {
+              "name": "Flavored Mixers & Soda[cite: 2]",
+              "price": "MRP[cite: 2]",
+              "description": "(Ginger Ale/ Tonic Water/ Soda)[cite: 2]"
+            },
+            {
+              "name": "Soft Drinks[cite: 2]",
+              "price": "MRP[cite: 2]",
+              "description": "(Sprite/Thumsup/Fanta/Diet Coke)[cite: 2]"
+            },
+            {
+              "name": "Bottled/ Mineral Water[cite: 2]",
+              "price": "MRP[cite: 2]",
+              "description": "(Packaged drinking water)[cite: 2]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
